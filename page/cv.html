@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="wclassth=device-wclassth, initial-scale=1.0"
+    />
+    <title>Cv Portfolio Web</title>
+    <link rel="stylesheet" href="../style/cv.css" />
+    <style>
+      :root {
+        --academique: ;
+        --competence: none;
+      }
+      .academique {
+        display: var(--academique);
+      }
+      .competence {
+        display: var(--competence);
+      }
+      .academique-photo {
+        display: var(--academique);
+      }
+      .competence-photo {
+        display: var(--competence);
+      }
+    </style>
+    <script>
+      // Get the root element
+      var r = document.querySelector(":root");
+      function changer_affichage(p1, p2) {
+        r.style.setProperty("--academique", p1);
+        r.style.setProperty("--competence", p2);
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <strong>Andy Raherimandimby</strong>
+        <p>/</p>
+        <p>Web Designer</p>
+      </div>
+      <ul>
+        <li>
+          <a href="../index.html"><button>ACCUEIL</button></a>
+        </li>
+        <li>
+          <a href="cv.html"><button class="page-en-cours">CV</button></a>
+        </li>
+        <li>
+          <a href="projet.html"><button>PROJET</button></a>
+        </li>
+        <li>
+          <a href="contact.html"><button>CONTACTS</button></a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="haut-g"></section>
+      <section class="haut-d"></section>
+      <section class="milieu-g"></section>
+      <section class="centre">
+        <div class="presentation">
+          <div class="academique-photo">
+            <img src="../image/acdmq.png" alt="icone Académique Introuvable" />
+          </div>
+          <div class="competence-photo">
+            <img src="../image/cmptc.png" alt="icone Compétences Introuvable" />
+          </div>
+          <div class="titre">
+            <h1 class="academique">Parcours <br />Académique</h1>
+            <h1 class="competence">
+              Compétences <br />Techniques <br />Linguistiques
+            </h1>
+          </div>
+          <hr class="separateur" />
+          <div class="titre-page">CURRICULUM VITAE</div>
+          <div class="reseaux">
+            <a href="https://www.facebook.com/Raher.Andy"
+              ><img src="/image/fb.png" alt="fb introuvable"
+            /></a>
+            <a
+              href="https://www.instagram.com/raher.andy/?igshclass=YmMyMTA2M2Y%3D&fbclclass=IwAR2ew9dxCm-Ua3nVhOl03d7u9GtZj0FlSL_mNET0rir1C731bVuULOafUG8"
+              ><img src="/image/insta.png" alt="insta introuvable"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/andy-raherimandimby-395964265?fbclclass=IwAR27lxv_M5fH2kS2y-NPoe_vtf8TfPkhT9TTpRHuWyeA-zz9VrX4psSeIik"
+              ><img src="/image/link.png" alt="linkedin introuvable"
+            /></a>
+            <a href="https://twitter.com/AndyRahery58571"
+              ><img src="/image/twitter.png" alt="twitter introuvable"
+            /></a>
+          </div>
+        </div>
+        <div class="contenu">
+          <div class="academique">
+            <h1>2022-2023</h1>
+            <h2>1ère année en Techniques de l’informatique</h2>
+            <em>Cégep de Rimouski</em>
+          </div>
+          <div class="academique">
+            <h1>2022</h1>
+            <h2>
+              Diplôme d’approfondissement <br />
+              en langue française (DALF C1)
+            </h2>
+            <em> Alliance française de Tananarive, Antananarivo Madagascar </em>
+          </div>
+          <div class="academique">
+            <h1>2020-2022</h1>
+            <h2>2ème année en informatique IT</h2>
+            <em>IT University of Madagascar</em>
+          </div>
+          <div class="academique">
+            <h1>2019-2020</h1>
+            <h2>Baccalauréat scientifique mention bien</h2>
+            <em>Antananarivo Madagascar</em>
+            <br />
+          </div>
+
+          <div class="competence">
+            <button type="button" onclick="changer_affichage('','none')">
+              ↑
+            </button>
+          </div>
+          <div class="competence">
+            <h1>Programmation :</h1>
+            <h2>C, Java , Python et C++</h2>
+          </div>
+          <div class="competence">
+            <h1>
+              Maîtrise des principes de <br />
+              programmation en orientée objet
+            </h1>
+          </div>
+          <div class="competence">
+            <h1>Développement Web :</h1>
+            <h2>Html, Css, Php et Javascript</h2>
+          </div>
+          <div class="competence">
+            <h1>Gestion des bases de données :</h1>
+            <h2>Oracle, PgSql et MySql</h2>
+          </div>
+          <div class="competence">
+            <h1>Gestion des systèmes d’exploitation :</h1>
+            <h2>Windows et Linux</h2>
+          </div>
+          <div class="academique">
+            <button type="button" onclick="changer_affichage('none')">↓</button>
+          </div>
+          <div class="competence">
+            <h1>Écrites :</h1>
+            <h2>Français (Avancé) et Anglais (Moyen)</h2>
+          </div>
+          <div class="competence">
+            <h1>Parlées :</h1>
+            <h2>Français (Avancé) et Anglais (Moyen)</h2>
+          </div>
+        </div>
+      </section>
+      <section class="milieu-d"></section>
+      <section class="bas-g"></section>
+      <section class="bas-d"></section>
+    </main>
+    <footer>
+      <strong>CONTACTS</strong>
+      <form>
+        <input class="info" type="text" placeholder="Nom" />
+        <input class="info" type="text" placeholder="Adresse Email" />
+        <input class="message" type="text" placeholder="Message" />
+        <input class="info" type="submit" placeholder="Envoyer" />
+      </form>
+      <ul>
+        <li><a href="https://www.facebook.com/Raher.Andy">Facebook</a></li>
+        <li>
+          <a
+            href="https://www.instagram.com/raher.andy/?igshclass=YmMyMTA2M2Y%3D&fbclclass=IwAR2ew9dxCm-Ua3nVhOl03d7u9GtZj0FlSL_mNET0rir1C731bVuULOafUG8"
+          >
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/andy-raherimandimby-395964265?fbclclass=IwAR27lxv_M5fH2kS2y-NPoe_vtf8TfPkhT9TTpRHuWyeA-zz9VrX4psSeIik"
+          >
+            Linkedin
+          </a>
+        </li>
+        <li><a href="https://twitter.com/AndyRahery58571">Twitter</a></li>
+      </ul>
+      <p>@Andy Raherimandimby</p>
+      <p>Mars 2023</p>
+    </footer>
+  </body>
+</html>

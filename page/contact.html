@@ -7,8 +7,8 @@
       name="viewport"
       content="wclassth=device-wclassth, initial-scale=1.0"
     />
-    <title>Accueil Portfolio Web</title>
-    <link rel="stylesheet" href="./style/index.css" />
+    <title>Projets Portfolio Web</title>
+    <link rel="stylesheet" href="../style/contact.css" />
   </head>
   <body>
     <header>
@@ -19,18 +19,18 @@
       </div>
       <ul>
         <li>
-          <a href="index.html"
-            ><button class="page-en-cours">ACCUEIL</button></a
+          <a href="../index.html"><button>ACCUEIL</button></a>
+        </li>
+        <li>
+          <a href="cv.html"><button>CV</button></a>
+        </li>
+        <li>
+          <a href="projet.html"><button>PROJET</button></a>
+        </li>
+        <li>
+          <a href="contact.html"
+            ><button class="page-en-cours">CONTACTS</button></a
           >
-        </li>
-        <li>
-          <a href="/page/cv.html"><button>CV</button></a>
-        </li>
-        <li>
-          <a href="/page/projet.html"><button>PROJET</button></a>
-        </li>
-        <li>
-          <a href="/page/contact.html"><button>CONTACTS</button></a>
         </li>
       </ul>
     </header>
@@ -39,18 +39,15 @@
       <section class="haut-d"></section>
       <section class="milieu-g"></section>
       <section class="centre">
-        <div class="profil">
-          <div class="pdp">
-            <img src="image/pdp.png" alt="pdp introuvable" />
+        <div class="presentation">
+          <div class="photo-titre">
+            <img src="../image/contact.png" alt="icone contact introuvable" />
           </div>
-          <div class="nom">
-            <h1>Andy <br />Raherimandimby</h1>
+          <div class="titre">
+            <h1 class="projet1">Gestion <br />Pharmacie</h1>
           </div>
           <hr class="separateur" />
-          <div class="profession">
-            W&nbsp; E&nbsp; B&emsp; D&nbsp; E&nbsp; S&nbsp; I&nbsp; G&nbsp;
-            N&nbsp; E&nbsp; R
-          </div>
+          <div class="titre-page">PROJETS DÉVELOPPÉS</div>
           <div class="reseaux">
             <a href="https://www.facebook.com/Raher.Andy"
               ><img src="/image/fb.png" alt="fb introuvable"
@@ -61,29 +58,20 @@
             /></a>
             <a
               href="https://www.linkedin.com/in/andy-raherimandimby-395964265?fbclclass=IwAR27lxv_M5fH2kS2y-NPoe_vtf8TfPkhT9TTpRHuWyeA-zz9VrX4psSeIik"
-              ><img src="/image/link.png" alt="linkedin introuvable"
+              ><img src="/image/link.png" alt="linkdin introuvable"
             /></a>
             <a href="https://twitter.com/AndyRahery58571"
               ><img src="/image/twitter.png" alt="twitter introuvable"
             /></a>
           </div>
         </div>
-        <div class="about">
-          <h1>Bonjour</h1>
-          <div class="cv-projet">
-            <h3>Voulez-vous me connaître ?</h3>
-            <a href="/page/cv.html"><button class="boutton1">CV</button></a>
-            <a href="/page/projet.html"
-              ><button class="boutton2">PROJETS</button></a
-            >
-          </div>
-          <hr class="barre" />
-          <q class="citation">
-            Un pessimiste voit la difficulté <br />
-            dans chaque opportunité. <br />Un optimiste voit l'opportunité
-            <br />dans chaque difficulté.
-          </q>
-          <strong class="auteur">Winston Churchill</strong>
+        <div class="contenu">
+          <form action="">
+            <input class="info" type="text" placeholder="Nom" />
+            <input class="info" type="text" placeholder="Adresse Email" />
+            <input class="message" type="text" placeholder="Message" />
+            <input class="info" type="submit" placeholder="Envoyer" />
+          </form>
         </div>
       </section>
       <section class="milieu-d"></section>
@@ -93,10 +81,10 @@
     <footer>
       <strong>CONTACTS</strong>
       <form>
-        <input class="info" type="text" placeholder="Nom" />
-        <input class="info" type="text" placeholder="Adresse Email" />
-        <input class="message" type="text" placeholder="Message" />
-        <input class="info" type="submit" placeholder="Envoyer" />
+        <input type="text" placeholder="Nom" />
+        <input type="text" placeholder="Adresse Email" />
+        <input type="text" placeholder="Message" />
+        <input type="submit" placeholder="Envoyer" />
       </form>
       <ul>
         <li><a href="https://www.facebook.com/Raher.Andy">Facebook</a></li>
