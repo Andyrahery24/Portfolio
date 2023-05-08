@@ -9,31 +9,16 @@
     />
     <title>Projets Portfolio Web</title>
     <link rel="stylesheet" href="../style/contact.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
-    <header>
-      <div>
-        <strong>Andy Raherimandimby</strong>
-        <p>/</p>
-        <p>Web Designer</p>
-      </div>
-      <ul>
-        <li>
-          <a href="../index.html"><button>ACCUEIL</button></a>
-        </li>
-        <li>
-          <a href="cv.html"><button>CV</button></a>
-        </li>
-        <li>
-          <a href="projet.html"><button>PROJET</button></a>
-        </li>
-        <li>
-          <a href="contact.html"
-            ><button class="page-en-cours">CONTACTS</button></a
-          >
-        </li>
-      </ul>
-    </header>
+    <script>
+      $(function () {
+        $("header").load("header.html");
+      });
+    </script>
+    <header></header>
+
     <main>
       <section class="haut-g"></section>
       <section class="haut-d"></section>
