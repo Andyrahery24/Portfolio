@@ -8,30 +8,45 @@
       content="wclassth=device-wclassth, initial-scale=1.0"
     />
     <title>Projets Portfolio Web</title>
-    <link rel="stylesheet" href="../style/contact.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
-    <script>
-      $(function () {
-        $("header").load("header.html");
-      });
-    </script>
-    <header></header>
+    <header>
+      <div>
+        <strong>Andy Raherimandimby</strong>
+        <pre>/    Web Designer</pre>
+      </div>
+      <ul>
+        <li>
+          <a href="../index.html"><button>ACCUEIL</button></a>
+        </li>
+        <li>
+          <a href="cv.html"><button>CV</button></a>
+        </li>
+        <li>
+          <a href="projet.html"><button>PROJET</button></a>
+        </li>
+        <li>
+          <a href="contact.html"
+            ><button class="page-en-cours">CONTACTS</button></a
+          >
+        </li>
+      </ul>
+    </header>
     <main>
       <section class="haut-g"></section>
       <section class="haut-d"></section>
       <section class="milieu-g"></section>
       <section class="centre">
-        <div class="presentation">
-          <div class="photo-titre">
+        <div class="centre_gauche">
+          <div class="photo_titre">
             <img src="../image/contact.png" alt="icone contact introuvable" />
           </div>
-          <div class="titre">
+          <div class="titre_page">
             <h1 class="projet1">Contactez <br />Moi</h1>
           </div>
           <hr class="separateur" />
-          <div class="titre-page">
+          <div class="titre_onglet">
             C&nbsp; O&nbsp; N&nbsp; T&nbsp; A&nbsp; C&nbsp; T&nbsp; S&nbsp;
           </div>
           <div class="reseaux">
@@ -51,7 +66,8 @@
             /></a>
           </div>
         </div>
-        <div class="contenu">
+
+        <div class="centre_droite">
           <form action="">
             <input class="info" type="text" placeholder="Nom" />
             <input class="info" type="text" placeholder="Adresse Email" />
@@ -64,34 +80,5 @@
       <section class="bas-g"></section>
       <section class="bas-d"></section>
     </main>
-    <footer>
-      <strong>CONTACTS</strong>
-      <form>
-        <input type="text" placeholder="Nom" />
-        <input type="text" placeholder="Adresse Email" />
-        <input type="text" placeholder="Message" />
-        <input type="submit" placeholder="Envoyer" />
-      </form>
-      <ul>
-        <li><a href="https://www.facebook.com/Raher.Andy">Facebook</a></li>
-        <li>
-          <a
-            href="https://www.instagram.com/raher.andy/?igshclass=YmMyMTA2M2Y%3D&fbclclass=IwAR2ew9dxCm-Ua3nVhOl03d7u9GtZj0FlSL_mNET0rir1C731bVuULOafUG8"
-          >
-            Instagram
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/andy-raherimandimby-395964265?fbclclass=IwAR27lxv_M5fH2kS2y-NPoe_vtf8TfPkhT9TTpRHuWyeA-zz9VrX4psSeIik"
-          >
-            Linkedin
-          </a>
-        </li>
-        <li><a href="https://twitter.com/AndyRahery58571">Twitter</a></li>
-      </ul>
-      <p>@Andy Raherimandimby</p>
-      <p>Mars 2023</p>
-    </footer>
   </body>
 </html>

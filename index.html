@@ -8,32 +8,45 @@
       content="wclassth=device-wclassth, initial-scale=1.0"
     />
     <title>Accueil Portfolio Web</title>
-    <link rel="stylesheet" href="./style/index.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <script>
-      $(function () {
-        $("header").load("page/header.html");
-      });
-    </script>
     <header>
-      <div></div>
+      <div>
+        <strong>Andy Raherimandimby</strong>
+        <pre>/    Web Designer</pre>
+      </div>
+      <ul>
+        <li>
+          <a href="index.html"
+            ><button class="page-en-cours">ACCUEIL</button></a
+          >
+        </li>
+        <li>
+          <a href="page/cv.html"><button>CV</button></a>
+        </li>
+        <li>
+          <a href="page/projet.html"><button>PROJET</button></a>
+        </li>
+        <li>
+          <a href="page/contact.html"><button>CONTACTS</button></a>
+        </li>
+      </ul>
     </header>
     <main>
       <section class="haut-g"></section>
       <section class="haut-d"></section>
       <section class="milieu-g"></section>
       <section class="centre">
-        <div class="profil">
-          <div class="pdp">
+        <div class="centre_gauche">
+          <div class="photo_titre">
             <img src="image/pdp.png" alt="pdp introuvable" />
           </div>
-          <div class="nom">
+          <div class="titre_page">
             <h1>Andy <br />Raherimandimby</h1>
           </div>
           <hr class="separateur" />
-          <div class="profession">
+          <div class="titre_onglet">
             W&nbsp; E&nbsp; B&emsp; D&nbsp; E&nbsp; S&nbsp; I&nbsp; G&nbsp;
             N&nbsp; E&nbsp; R
           </div>
@@ -54,16 +67,16 @@
             /></a>
           </div>
         </div>
-        <div class="about">
-          <h1>Bonjour</h1>
+        <div class="centre_droite">
+          <h1 class="salutation">Bonjour</h1>
           <div class="cv-projet">
             <h3>Voulez-vous me connaître ?</h3>
-            <a href="page/cv.html"><button class="boutton1">CV</button></a>
+            <a href="page/cv.html"><button class="bouton_cv">CV</button></a>
             <a href="page/projet.html"
-              ><button class="boutton2">PROJETS</button></a
+              ><button class="bouton_projet">PROJET</button></a
             >
           </div>
-          <hr class="barre" />
+          <hr class="separateur" />
           <q class="citation">
             Un pessimiste voit la difficulté <br />
             dans chaque opportunité. <br />Un optimiste voit l'opportunité
@@ -76,34 +89,5 @@
       <section class="bas-g"></section>
       <section class="bas-d"></section>
     </main>
-    <footer>
-      <strong>CONTACTS</strong>
-      <form>
-        <input class="info" type="text" placeholder="Nom" />
-        <input class="info" type="text" placeholder="Adresse Email" />
-        <input class="message" type="text" placeholder="Message" />
-        <input class="info" type="submit" placeholder="Envoyer" />
-      </form>
-      <ul>
-        <li><a href="https://www.facebook.com/Raher.Andy">Facebook</a></li>
-        <li>
-          <a
-            href="https://www.instagram.com/raher.andy/?igshclass=YmMyMTA2M2Y%3D&fbclclass=IwAR2ew9dxCm-Ua3nVhOl03d7u9GtZj0FlSL_mNET0rir1C731bVuULOafUG8"
-          >
-            Instagram
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/in/andy-raherimandimby-395964265?fbclclass=IwAR27lxv_M5fH2kS2y-NPoe_vtf8TfPkhT9TTpRHuWyeA-zz9VrX4psSeIik"
-          >
-            Linkedin
-          </a>
-        </li>
-        <li><a href="https://twitter.com/AndyRahery58571">Twitter</a></li>
-      </ul>
-      <p>@Andy Raherimandimby</p>
-      <p>Mars 2023</p>
-    </footer>
   </body>
 </html>
